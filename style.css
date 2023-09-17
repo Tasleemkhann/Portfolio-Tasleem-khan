@@ -1,0 +1,317 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Sora", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  background-color: #457b9d1a;
+}
+
+p {
+  font-size: 35px;
+  margin: 0;
+}
+
+.navbar2 {
+  display: flex;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bio {
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #457b9d1a;
+  height: 300px;
+  gap: 40px;
+}
+
+.bio h1 {
+  margin-top: 10px;
+}
+
+.greet {
+  font-size: 20px;
+}
+
+.biomyself {
+  font-size: 15px;
+}
+
+.rightbio {
+  background-color: #457b9d;
+  width: 300px;
+  height: 240px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.meimg {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+}
+
+.biobuttons {
+  margin-top: 30px;
+}
+
+.downloadcv {
+  color: white;
+}
+
+.cvbutton {
+  background-color: #457b9d;
+  border-radius: 5px;
+  color: white;
+  border-style: none;
+  width: 174px;
+  height: 44px;
+}
+
+.exploremore {
+  background-color: rgb(177, 177, 177);
+  border-radius: 5px;
+  color: black;
+  border-style: none;
+  width: 174px;
+  height: 44px;
+  margin-left: 20px;
+}
+
+.page2 {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.page2 .svgimg {
+  width: 40%;
+}
+.page2 .manonPc {
+  width: 100%;
+}
+.aboutme {
+  width: 45%;
+}
+.about1 {
+  color: #457b9d;
+}
+
+.aboutinfo {
+  font-size: 17px;
+}
+
+.skills {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #457b9d1a;
+}
+
+.skills p {
+  color: #457b9d;
+  text-align: center;
+  padding: 70px 0 0 0;
+}
+
+.skillsh2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stickers img {
+  padding: 20px;
+}
+
+.projects {
+  padding: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.projecthead {
+  color: #457b9d;
+  padding-bottom: 50px;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projecttitle {
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projectland {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.viewbuttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px;
+}
+
+.viewbutton {
+  background-color: #457b9d;
+  border-radius: 5px;
+  color: black;
+  border-style: none;
+  width: 174px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.viewbutton a {
+  color: white;
+}
+
+.viewbutton1 {
+  background: white;
+  border: 1px solid #457b9d;
+  color: #457b9d;
+}
+
+.projectland img {
+  width: 30%;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 10);
+}
+
+.projectabout p {
+  padding: 0px 200px;
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.contacttag {
+  color: #457b9d;
+}
+
+.page4 {
+  padding: 100px;
+  background-color: #457b9d1a;
+}
+
+.getintouch {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 0 0 0;
+}
+
+.mail {
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.socialhandles {
+  color: black;
+  padding: 0px 0;
+  font-size: 40px;
+}
+
+.socialhandles a {
+  color: rgb(27, 101, 151);
+  padding: 0px 0;
+  font-size: 40px;
+}
+
+.copyright {
+  padding: 40px 0 0 0;
+}
+
+@media (max-width: 1000px) {
+  .bio {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar2 {
+    display: none;
+  }
+
+  .page2 {
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .aboutinfo {
+    font-size: 17px;
+  }
+  .projectland {
+    flex-direction: column;
+  }
+  .projectabout p {
+    padding: 0px 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bio {
+    flex-direction: column;
+    height: fit-content;
+    padding: 20px;
+    gap: 70px;
+  }
+  .biobuttons {
+    display: flex;
+  }
+
+  .aboutme {
+    width: 90%;
+  }
+  .stickers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects {
+    padding: 20px;
+  }
+  .projectland {
+    flex-direction: column;
+  }
+  .projectabout p {
+    padding: 0px 0px;
+    margin-bottom: 50px;
+  }
+  .projectland img {
+    width: 80%;
+  }
+}
